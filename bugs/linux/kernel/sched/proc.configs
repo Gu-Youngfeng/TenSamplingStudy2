@@ -1,0 +1,4 @@
+3
+def(NO_HZ)&&!def(CONFIG_SMP)
+!def(NO_HZ)&&def(CONFIG_SMP)
+def(NO_HZ)&&def(CONFIG_SMP)

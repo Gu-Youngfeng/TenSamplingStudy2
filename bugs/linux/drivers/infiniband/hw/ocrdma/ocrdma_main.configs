@@ -1,0 +1,3 @@
+2
+def(VLAN_8021Q)&&def(IPV6)
+!def(VLAN_8021Q)&&def(IPV6)

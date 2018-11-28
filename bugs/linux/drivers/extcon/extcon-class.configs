@@ -1,0 +1,2 @@
+1
+def(WEXT_CORE)&&def(SYSFS)&&def(I2C_SH_MOBILE)

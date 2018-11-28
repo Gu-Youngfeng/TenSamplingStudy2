@@ -1,0 +1,4 @@
+3
+!def(ZONE_DMA)&&def(EP93XX_ETH)
+def(ZONE_DMA)&&def(EP93XX_ETH)
+def(ZONE_DMA)&&!def(EP93XX_ETH)

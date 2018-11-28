@@ -1,0 +1,3 @@
+2
+def(HIGHMEM)&&!def(CONFIG_XFRM)&&def(CONFIG_PROC_FS)
+def(HIGHMEM)&&def(CONFIG_XFRM)&&def(CONFIG_PROC_FS)

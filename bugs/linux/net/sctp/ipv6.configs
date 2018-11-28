@@ -1,0 +1,4 @@
+3
+!def(SCTP_DBG_MSG)&&def(IP_SCTP)&&def(IPV6)&&def(CONFIG_COMPAT)
+def(SCTP_DBG_MSG)&&def(IP_SCTP)&&def(IPV6)&&def(CONFIG_COMPAT)
+!def(SCTP_DBG_MSG)&&def(IP_SCTP)&&!def(IPV6)&&def(CONFIG_COMPAT)

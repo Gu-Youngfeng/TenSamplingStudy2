@@ -1,0 +1,37 @@
+linux;kernel/sched;proc.c;NO_HZ
+linux;kernel/sched;rt.c;SCHED_DEBUG
+linux;include/linux;if_vlan.h;!VLAN_8021Q
+linux;kernel;rcutree_plugin.h;TREE_PREEMPT_RCU && RCU_CPU_STALL_DETECTOR && !NO_HZ
+linux;include/net;inet_hashtables.h;NUMA
+linux;arch/blackfin/mach-common;pm.c;PM_SLEEP_SMP && BF542
+linux;arch/x86/kernel;smpboot.c;X86_32 && X86_BIGSMP
+linux;kernel;module.c;MODULE_UNLOAD && SMP
+linux;arch/x86/pci;common.c;X86_32 && NUMA && PCI_BIOS
+linux;arch/arm/mm;fault.c;ARM
+linux;fs/proc;task_mmu.c;PROC_PAGE_MONITOR
+linux;drivers/net;3c59x.c;VORTEX && !PCI
+linux;drivers/infiniband/hw/ocrdma;ocrdma_main.c;IPV6 && !VLAN_8021Q
+linux;fs/quota;dquot.c;QUOTA
+linux;include/linux;kernel.h;!TRACING
+linux;block;cfq-iosched.c;CFQ_GROUP_IOSCHED && !DEBUG_BLK_CGROUP
+linux;drivers/extcon;extcon-class.c;WEXT_CORE && SYSFS && I2C_SH_MOBILE
+linux;mm;slab.c;LOCKDEP && DEBUG_SLAB && !DEBUG_SLAB_LEAK && DIRECT_GBPAGES && ZONE_DMA
+linux;drivers/net/arm;ep93xx_eth.c;EP93XX_ETH && !ZONE_DMA
+linux;net/ipv4;udp.c;HIGHMEM
+linux;arch/powerpc/kernel;kprobes.c;!PPC64 && KPROBES && !KGDB && !HWMON && !CONTEXT_SWITCH_TRACER
+linux;fs/reiserfs;namei.c;!SECURITY
+linux;kernel/time;tick-sched.c;!_64BIT && !KTIME_SCALAR
+linux;drivers/base;core.c;!HOTPLUG_PCI_SGI
+linux;drivers/base;dd.c;I2C && TWL4030_CORE && HT_IRQ && !NF_NAT_IRC
+linux;arch/arm/mach-omap2;board-omap3pandora.c;ARCH_OMAP730 && !PMAC_SMU
+linux;arch/arm/mach-omap2;board-generic.c;MACH_OMAP_H4_OTG && !ARCH_OMAP2430
+linux;net/ipv4;tcp_minisocks.c;TCP_MD5SIG && PREEMPT
+linux;drivers/tty;pty.c;UNIX98_PTYS && DEVPTS_MULTIPLE_INSTANCES
+linux;arch/parisc/mm;init.c;PARISC && DISCONTIGMEM && PROC_PAGE_MONITOR
+linux;fs/jffs2;super.c;JFFS2_FS_WBUF_VERIFY
+linux;arch/s390/crypto;prng.c;S390 && S390_PRNG
+linux;net/core;netpoll.c;NETPOLL && !IPV6
+linux;init;main.c;DEBUG_SLAB && CONFIG_LOCKDEP && TRACE_IRQFLAGS && PROVE_LOCKING && NUMA
+linux;net/sctp;ipv6.c;IP_SCTP && IPV6 && SCTP_DBG_MSG
+linux;init;main.c;CONFIG_X86 && ACPI_WMI
+linux;drivers/gpu/drm/i915;i915_dma.c;DRM_I915 && SHMEM && !TMPFS

@@ -1,0 +1,2 @@
+1
+def(PMAC_SMU)&&def(CONFIG_OMAP_MUX)&&def(ARCH_OMAP730)

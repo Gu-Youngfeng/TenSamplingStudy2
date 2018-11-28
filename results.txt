@@ -1,0 +1,32 @@
+Statement-Coverage
+
+Bugs: 32
+Configurations: 85559
+TIME: 42187.0
+AVERAGE: 897.5957446808511 
+
+
+Pair-wise
+Bugs: 33
+Configurations: 640826
+TIME: 60936.0
+AVERAGE: 1296.5106382978724
+
+
+All-Enabled-Disabled
+Bugs: 23
+Configurations: 42716
+TIME: 32560.0
+AVERAGE: 692.7659574468086
+
+One-Enabled
+Bugs: 7
+Configurations: 22744
+TIME: 17540.0
+AVERAGE: 373.1914893617021
+
+One-Disabled
+Bugs: 6
+Configurations: 22744
+TIME: 17604.0
+AVERAGE: 374.5531914893617

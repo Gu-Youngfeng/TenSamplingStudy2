@@ -1,0 +1,4 @@
+3
+!def(NETPOLL)&&def(IPV6)
+def(NETPOLL)&&!def(IPV6)
+def(NETPOLL)&&def(IPV6)

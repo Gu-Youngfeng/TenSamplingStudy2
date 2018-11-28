@@ -1,0 +1,4 @@
+3
+def(S390_PRNG)&&!def(S390)
+def(S390_PRNG)&&def(S390)
+!def(S390_PRNG)&&def(S390)

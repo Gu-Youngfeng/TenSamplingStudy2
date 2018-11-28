@@ -1,0 +1,3 @@
+2
+def(TWL4030_CORE)&&!def(NF_NAT_IRC)&&def(I2C)&&def(HT_IRQ)
+def(TWL4030_CORE)&&def(NF_NAT_IRC)&&!def(I2C)&&def(HT_IRQ)

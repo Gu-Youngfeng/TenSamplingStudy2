@@ -1,0 +1,4 @@
+3
+!def(TMPFS)&&def(SHMEM)&&def(DRM_I915)&&def(CONFIG_PNP)
+!def(TMPFS)&&!def(SHMEM)&&def(DRM_I915)&&def(CONFIG_PNP)
+def(TMPFS)&&def(SHMEM)&&def(DRM_I915)&&def(CONFIG_PNP)

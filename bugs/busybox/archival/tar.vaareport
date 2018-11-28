@@ -1,0 +1,36 @@
+File : /Users/Flavio/Desktop/Workspaces/FSE15/SamplingConstraints/bugs/busybox/archival/tar.c
+Features : 3
+Time for serialization loading: 23 ms
+
+Time for config generation (coverage_noHeader): 28 ms
+ unsatisfiableCombinations:0
+ already covered combinations:0
+ created combinations:1
+ Features in CFile: 0
+ found 0 NodeExpressions
+ found 0 simpleAndNodes, 0 simpleOrNodes and 0 complex nodes.
+
+
+
+ -- Task: coverage_noHeader
+(coverage_noHeader)Processed configurations: 1
+(coverage_noHeader)Product Derivation Times: 0
+(coverage_noHeader)Configurations with errors: 0
+(coverage_noHeader)TimeSum Products: 0 ms
+(coverage_noHeader)Times Products: 0
+(coverage_noHeader)DataflowSum Products: 0 ms
+(coverage_noHeader)Dataflow Products: 0
+
+
+ -- Task: coverage_noHeader
+(coverage_noHeader)Processed configurations: 1
+(coverage_noHeader)Product Derivation Times: 5
+(coverage_noHeader)Configurations with errors: 0
+(coverage_noHeader)TimeSum Products: 0 ms
+(coverage_noHeader)Times Products: 0
+(coverage_noHeader)DataflowSum Products: 0 ms
+(coverage_noHeader)Dataflow Products: 0
+
+Errors in family check: No
+Time Family:      1 ms
+Dataflow Time Family:     0 ms
