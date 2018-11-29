@@ -9,6 +9,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/***
+ * <p>CoveringArraysUtils 类提供了读取 CSV 文件 (由工具 SPLCAT 产生的约束求解的答案) 中有效配置的方法 {@link#getValidProducts}。</p>
+ * @editor yongfeng
+ */
 public class CoveringArraysUtils {
 
 	public static void main(String[] args) throws IOException {
@@ -20,6 +24,12 @@ public class CoveringArraysUtils {
 	}
 	
 	// Receives a CSV file and returns the valid products.
+	/***
+	 * <p>读取 file 文件 (即工具 SPLCA Tool 生成的文件) 中的配置组合</p>
+	 * @param file SPLCA Tool 生成的文件
+	 * @return 配置组合的集合
+	 * @throws IOException
+	 */
 	public List<List<String>> getValidProducts(File file) throws IOException{
 		List<List<String>> configurations = new ArrayList<List<String>>();
 		
@@ -29,11 +39,11 @@ public class CoveringArraysUtils {
 		String line = null;
 		
 		// First line of the covering array.
-		if ((line = br.readLine()) != null){
-			String[] parts = line.split(";");
+		if ((line = br.readLine()) != null){ // 读 CSV 文件第一行
+			String[] parts = line.split(";"); // parts 数组记录了一共生成了多少配置组合
 			for (int i = 1; i < parts.length; i++){
 				List<String> configuration = new ArrayList<String>();
-				configurations.add(configuration);
+				configurations.add(configuration); // 将空的配置组合放入到 configurations 集合中去
 			}
 		}
 		
@@ -56,6 +66,13 @@ public class CoveringArraysUtils {
 	}
 	
 	// Receives a CSV file and returns the valid products.
+	/***
+	 * <p>读取 file 文件 (即工具 SPLCA Tool 生成的文件) 中的配置组合</p>
+	 * @param file SPLCA Tool 生成的文件
+	 * @param directives  
+	 * @return 配置组合的集合
+	 * @throws IOException
+	 */
 	public List<List<String>> getValidProducts(File file, List<String> directives) throws IOException{
 		//System.out.println(directives);
 		List<List<String>> configurations = new ArrayList<List<String>>();
